@@ -17,7 +17,7 @@
   "require": {
     "php": "7.*",
     "ext-imagick": "*",
-    "symfony/console": "^5.3.*"
+    "symfony/console": "5.3.*"
   },
   "bin": ["bin/omr"],
   "require-dev": {
