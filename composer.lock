@@ -55,11 +55,10 @@
         },
         {
             "name": "symfony/console",
-            "version": "^5.3.x-dev",
+            "version": ">=5.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "574cb4cfaa01ba115fc2fc0c2355b2c5472a4804"
             },
             "dist": {
                 "type": "zip",
