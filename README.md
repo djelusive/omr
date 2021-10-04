@@ -11,14 +11,14 @@ It was originally developed by jansenfelipe. However, with wanting to use this t
 
 See: [https://en.wikipedia.org/wiki/Optical_mark_recognition](https://en.wikipedia.org/wiki/Optical_mark_recognition)
 
-<img src="https://github.com/jansenfelipe/omr/blob/develop/example/screenshots/exec_command.png?raw=true" />
+<img src="https://github.com/tikent/omr/blob/develop/example/screenshots/exec_command.png?raw=true" />
 
 # How to use
 
 Add library:
 
 ```sh
-$ composer require jansenfelipe/omr
+$ composer require tikent/omr
 ```
 
 Instantiate the <a href="#scanners">Scanner</a> class responsible for reading the image and enter its path
@@ -56,7 +56,7 @@ This library currently has only one scanner class using `Imagemagick 6`. It has 
 * imagemagick6
 * Extension imagick-3.4.4 
 
-See https://github.com/jansenfelipe/omr/blob/master/src/Scanners/ImagickScanner.php
+See https://github.com/tikent/omr/blob/master/src/Scanners/ImagickScanner.php
 
 # Target Mapping File
 
@@ -91,7 +91,7 @@ That way you can install the dependencies and run the command to process the ima
 1) Clone this repo:
 
 ```ssh
-$ git clone https://github.com/jansenfelipe/omr.git
+$ git clone https://github.com/tikent/omr.git
 $ cd omr/
 ```
 
