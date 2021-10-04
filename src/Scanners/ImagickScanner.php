@@ -31,17 +31,17 @@ class ImagickScanner extends Scanner
     {
         if(is_null($this->imagick))
         {
-            $this->original = new Imagick($this->imagePath);
-
-            $this->imagick = new Imagick($this->imagePath);
+            $this->original = new Imagick();
+            $this->original->readImage($this->imagePath); //added readImage to work with latest versions of Imagick
+            $this->imagick = new Imagick();
+            $this->imagick->readImage($this->imagePath); //added readImage to work with latest versions of Imagick
             $this->imagick->setResolution(300, 300);
-            $this->imagick->medianFilterImage(2);
-            $this->imagick->setImageCompression(imagick::COMPRESSION_JPEG);
-            $this->imagick->setImageCompressionQuality(100);
+            //$this->imagick->medianFilterImage(2); //Removed medianFilterImage as it is now deprecated
+            $this->imagick->setCompression(imagick::COMPRESSION_JPEG);
+            $this->imagick->setCompressionQuality(100);
             $this->imagick->blackThresholdImage("#FFFFFF");
             $this->imagick->whiteThresholdImage("#000000");
         }
-
         return $this->imagick;
     }
 
@@ -103,7 +103,7 @@ class ImagickScanner extends Scanner
     protected function bottomLeft(Point $near)
     {
         $imagick = $this->getImagick();
-        
+
         $x = $near->getX() - 20;
         $y = $near->getY() - 20;
 
