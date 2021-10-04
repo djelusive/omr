@@ -7,6 +7,7 @@
 [![Build Status](https://travis-ci.org/jansenfelipe/omr.svg?branch=master)](https://travis-ci.org/jansenfelipe/omr)
 
 This is an open source library written in PHP for recognition markings on questionnaires scans
+It was originally developed by jansenfelipe. However, with wanting to use this tool with the latest versions of PHP & Laravel changes and updates have been made.
 
 See: [https://en.wikipedia.org/wiki/Optical_mark_recognition](https://en.wikipedia.org/wiki/Optical_mark_recognition)
 
