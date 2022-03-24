@@ -18,7 +18,7 @@ See: [https://en.wikipedia.org/wiki/Optical_mark_recognition](https://en.wikiped
 Add library:
 
 ```sh
-$ composer require tikent/omr
+$ composer require djelusive/omr
 ```
 
 Instantiate the <a href="#scanners">Scanner</a> class responsible for reading the image and enter its path
@@ -56,7 +56,7 @@ This library currently has only one scanner class using `Imagemagick 6`. It has 
 * imagemagick6
 * Extension imagick-3.4.4 
 
-See https://github.com/tikent/omr/blob/master/src/Scanners/ImagickScanner.php
+See https://github.com/djelusive/omr/blob/master/src/Scanners/ImagickScanner.php
 
 # Target Mapping File
 
@@ -91,7 +91,7 @@ That way you can install the dependencies and run the command to process the ima
 1) Clone this repo:
 
 ```ssh
-$ git clone https://github.com/tikent/omr.git
+$ git clone https://github.com/djelusive/omr.git
 $ cd omr/
 ```
 
