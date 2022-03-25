@@ -1,5 +1,5 @@
 {
-  "name": "tikent/omr",
+  "name": "djelusive/omr",
   "description": "Optical Mark Recognition from PHP",
   "type": "library",
   "license": "MIT",
