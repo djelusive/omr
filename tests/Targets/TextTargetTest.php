@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests;
+namespace Djelusive\OMR\Tests;
 
-use JansenFelipe\OMR\Point;
-use JansenFelipe\OMR\Targets\TextTarget;
+use Djelusive\OMR\Point;
+use Djelusive\OMR\Targets\TextTarget;
 use PHPUnit\Framework\TestCase;
 
 class TextTargetTest extends TestCase
