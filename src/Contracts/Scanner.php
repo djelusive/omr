@@ -1,14 +1,14 @@
 <?php
 
-namespace JansenFelipe\OMR\Contracts;
+namespace Djelusive\OMR\Contracts;
 
 
-use JansenFelipe\OMR\Area;
-use JansenFelipe\OMR\Point;
-use JansenFelipe\OMR\Result;
-use JansenFelipe\OMR\Targets\CircleTarget;
-use JansenFelipe\OMR\Targets\RectangleTarget;
-use JansenFelipe\OMR\Targets\TextTarget;
+use Djelusive\OMR\Area;
+use Djelusive\OMR\Point;
+use Djelusive\OMR\Result;
+use Djelusive\OMR\Targets\CircleTarget;
+use Djelusive\OMR\Targets\RectangleTarget;
+use Djelusive\OMR\Targets\TextTarget;
 
 abstract class Scanner
 {
