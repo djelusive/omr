@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests;
+namespace Djelusive\OMR\Tests;
 
-use JansenFelipe\OMR\Point;
-use JansenFelipe\OMR\Targets\RectangleTarget;
+use Djelusive\OMR\Point;
+use Djelusive\OMR\Targets\RectangleTarget;
 use PHPUnit\Framework\TestCase;
 
 class RectangleTargetTest extends TestCase
