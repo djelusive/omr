@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests;
+namespace Djelusive\OMR\Tests;
 
-use JansenFelipe\OMR\Contracts\Target;
-use JansenFelipe\OMR\Result;
+use Djelusive\OMR\Contracts\Target;
+use Djelusive\OMR\Result;
 use PHPUnit\Framework\TestCase;
 
 class ResultTest extends TestCase
