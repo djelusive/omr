@@ -5,8 +5,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Jansen Felipe",
-      "email": "jansen.felipe@gmail.com"
+      "name": "Timothy Kent",
+      "email": "timothy.kent83@gmail.com"
     }
   ],
   "keywords": [
@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "JansenFelipe\\OMR\\": "src/"
+      "Djelusive\\OMR\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "JansenFelipe\\OMR\\Tests\\": "tests/"
+      "Djelusive\\OMR\\Tests\\": "tests/"
     }
   },
   "extra": {
