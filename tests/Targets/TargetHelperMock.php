@@ -1,8 +1,8 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests\Targets;
+namespace Djelusive\OMR\Tests\Targets;
 
-use JansenFelipe\OMR\Contracts\Target;
+use Djelusive\OMR\Contracts\Target;
 
 class TargetHelperMock extends Target
 {
