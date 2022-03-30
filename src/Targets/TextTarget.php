@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR\Targets;
+namespace Djelusive\OMR\Targets;
 
-use JansenFelipe\OMR\Contracts\Target;
-use JansenFelipe\OMR\Point;
+use Djelusive\OMR\Contracts\Target;
+use Djelusive\OMR\Point;
 
 class TextTarget extends Target
 {
