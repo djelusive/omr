@@ -1,8 +1,8 @@
 <?php
 
-namespace JansenFelipe\OMR\Contracts;
+namespace Djelusive\OMR\Contracts;
 
-use JansenFelipe\OMR\Point;
+use Djelusive\OMR\Point;
 
 interface Map
 {
