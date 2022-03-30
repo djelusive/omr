@@ -1,13 +1,13 @@
 <?php
 
-namespace JansenFelipe\OMR\Maps;
+namespace Djelusive\OMR\Maps;
 
-use JansenFelipe\OMR\Contracts\Map;
-use JansenFelipe\OMR\Contracts\Target;
-use JansenFelipe\OMR\Point;
-use JansenFelipe\OMR\Targets\CircleTarget;
-use JansenFelipe\OMR\Targets\RectangleTarget;
-use JansenFelipe\OMR\Targets\TextTarget;
+use Djelusive\OMR\Contracts\Map;
+use Djelusive\OMR\Contracts\Target;
+use Djelusive\OMR\Point;
+use Djelusive\OMR\Targets\CircleTarget;
+use Djelusive\OMR\Targets\RectangleTarget;
+use Djelusive\OMR\Targets\TextTarget;
 
 class MapJson implements Map
 {
