@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR;
+namespace Djelusive\OMR;
 
-use JansenFelipe\OMR\Contracts\Target;
-use JansenFelipe\OMR\Targets\TextTarget;
+use Djelusive\OMR\Contracts\Target;
+use Djelusive\OMR\Targets\TextTarget;
 
 class Result
 {
