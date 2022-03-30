@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR\Commands;
+namespace Djelusive\OMR\Commands;
 
-use JansenFelipe\OMR\Maps\MapJson;
-use JansenFelipe\OMR\Scanners\ImagickScanner;
+use Djelusive\OMR\Maps\MapJson;
+use Djelusive\OMR\Scanners\ImagickScanner;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
