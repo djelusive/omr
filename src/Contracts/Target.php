@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\OMR\Contracts;
+namespace Djelusive\OMR\Contracts;
 
 
 abstract class Target
