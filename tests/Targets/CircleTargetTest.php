@@ -1,9 +1,9 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests;
+namespace Djelusive\OMR\Tests;
 
-use JansenFelipe\OMR\Point;
-use JansenFelipe\OMR\Targets\CircleTarget;
+use Djelusive\OMR\Point;
+use Djelusive\OMR\Targets\CircleTarget;
 use PHPUnit\Framework\TestCase;
 
 class CircleTargetTest extends TestCase
