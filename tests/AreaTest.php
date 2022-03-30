@@ -1,8 +1,8 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests;
+namespace Djelusive\OMR\Tests;
 
-use JansenFelipe\OMR\Area;
+use Djelusive\OMR\Area;
 use PHPUnit\Framework\TestCase;
 
 class AreaTest extends TestCase
