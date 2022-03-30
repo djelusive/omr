@@ -1,12 +1,12 @@
 <?php
 
-namespace JansenFelipe\OMR\Scanners;
+namespace Djelusive\OMR\Scanners;
 
 use Imagick;
 use ImagickDraw;
-use JansenFelipe\OMR\Area;
-use JansenFelipe\OMR\Contracts\Scanner;
-use JansenFelipe\OMR\Point;
+use Djelusive\OMR\Area;
+use Djelusive\OMR\Contracts\Scanner;
+use Djelusive\OMR\Point;
 
 class ImagickScanner extends Scanner
 {
