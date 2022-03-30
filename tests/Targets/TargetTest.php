@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests\Targets;
+namespace Djelusive\OMR\Tests\Targets;
 
 use PHPUnit\Framework\TestCase;
 
