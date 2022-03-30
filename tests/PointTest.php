@@ -1,8 +1,8 @@
 <?php
 
-namespace JansenFelipe\OMR\Tests;
+namespace Djelusive\OMR\Tests;
 
-use JansenFelipe\OMR\Point;
+use Djelusive\OMR\Point;
 use PHPUnit\Framework\TestCase;
 
 class PointTest extends TestCase
