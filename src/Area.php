@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\OMR;
+namespace Djelusive\OMR;
 
 
 class Area
